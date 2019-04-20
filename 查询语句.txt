@@ -1,0 +1,8 @@
+explain select * from student WHERE s_id = 10 and age = 18;
+
+explain select * from student WHERE s_id = 10 and name = 'ะกัล';
+
+explain select * from student WHERE name = 'ะกัล' and age = 18;
+
+explain select * from student WHERE s_id = 10 and name = 'ะกัล' and age = 18;
+
